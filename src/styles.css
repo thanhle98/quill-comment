@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ql-contain:after {
+  content: "Con";
+}
+.ql-comments-toggle:after {
+  content: "Tog";
+}
+.ql-comments-add:after {
+  content: "Add";
+}
+.ql-container.ql-snow {
+  display: block;
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 42px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+#root .ql-editor {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 1.2rem;
+  padding: 1.6rem 3rem;
+}
+
+#root .ql-snow .ql-editor h1,
+#root .ql-snow .ql-editor h2,
+#root .ql-snow .ql-editor h3 {
+  font-weight: 100;
+  margin: 0.3em 0;
+}
+
+#root .ql-snow .ql-editor h1 {
+  font-size: 1.7em;
+}
+#root .ql-snow .ql-editor h2 {
+  font-size: 1.4em;
+}
+#root .ql-snow .ql-editor h3 {
+  font-size: 1.2em;
+}
+
+#root .ql-snow .ql-editor p {
+  margin-bottom: 0.2em;
+}
